@@ -44,3 +44,21 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 1. Clone the repository: `git clone https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Python file to execute the pipeline: `python scripts/climate_clustering_model.py`
+
+
+
+
+
+## 📁 Repository Structure
+
+```text
+├── data/
+│   ├── arab_region_adaptive_capacity_data.csv   # The raw API data
+│   └── arab_region_clusters_final.csv           # The final dataset with Cluster IDs
+├── scripts/
+│   └── climate_clustering_model.py              # The complete Python pipeline
+├── images/
+│   └── clusters_plot.png                        # Scatter plot visualization of the clusters
+├── .gitignore                                   # Standard Python gitignore
+├── requirements.txt                             # Python dependencies (wbgapi, pandas, etc.)
+└── README.md                                    # Project documentation
