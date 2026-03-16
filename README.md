@@ -32,8 +32,8 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 
 ![K-Means Cluster Map](images/clusters_plot.png)
 
+## 📁 Repository Structure
 
-## Repository Structure
 ```text
 ├── data/
 │   ├── arab_region_adaptive_capacity_data.csv   # The raw API data
@@ -45,13 +45,3 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 ├── .gitignore                                   # Standard Python gitignore
 ├── requirements.txt                             # Python dependencies (wbgapi, pandas, etc.)
 └── README.md                                    # Project documentation
-
-
-##  How to Run
-
-1. **Clone the repository:** ```bash
-   git clone [https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering](https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering)
-2. Install the required dependencies: ```bash
-pip install -r requirements.txt
-3. Execute the pipeline: ```bash
-python scripts/climate_clustering_model.py
