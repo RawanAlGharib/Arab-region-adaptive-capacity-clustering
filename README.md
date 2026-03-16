@@ -35,4 +35,4 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 ## 🚀 How to Run
 
 1. **Clone the repository:** ```bash
-   git clone [https://github.com/YourUsername/arab-region-climate-clustering](https://github.com/RawanALGharib/arab-region-adaptive-capacity-clustering)
+   git clone [https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering](https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering)
