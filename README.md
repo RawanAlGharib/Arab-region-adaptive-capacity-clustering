@@ -32,24 +32,7 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 
 ![K-Means Cluster Map](images/clusters_plot.png)
 
-##  Repository Structure
-* `scripts/` - Contains the Python file (`.py`) for data extraction, PCA dimensionality reduction, and K-Means clustering.
-* `data/` - Raw World Bank API dataset and the exported CSV containing the final cluster assignments.
-* `images/` - Contains the exported scatter plot visualization of the final economic profiles.
-* `requirements.txt` - List of required Python dependencies (`wbgapi`, `pandas`, `scikit-learn`, `matplotlib`).
-* `.gitignore` - Standard hidden file to ignore system caches and virtual environments.
-* `README.md` - Project documentation.
-
-##  How to Run
-1. Clone the repository: `git clone https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Python file to execute the pipeline: `python scripts/climate_clustering_model.py`
-
-
-
-
-
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/
@@ -62,3 +45,14 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 ├── .gitignore                                   # Standard Python gitignore
 ├── requirements.txt                             # Python dependencies (wbgapi, pandas, etc.)
 └── README.md                                    # Project documentation
+
+
+##  How to Run
+1. Clone the repository: `git clone https://github.com/RawanALGharib/Arab-region-adaptive-capacity-clustering`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Python file to execute the pipeline: `python scripts/climate_clustering_model.py`
+
+
+
+
+
