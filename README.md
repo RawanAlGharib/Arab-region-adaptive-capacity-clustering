@@ -34,7 +34,7 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 
 
 ## Repository Structure
-```text
+
 ├── data/
 │   ├── arab_region_adaptive_capacity_data.csv   # The raw API data
 │   └── arab_region_clusters_final.csv           # The final dataset with Cluster IDs
