@@ -34,7 +34,7 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 
 
 ## Repository Structure
-
+```text
 ├── data/
 │   ├── arab_region_adaptive_capacity_data.csv   # The raw API data
 │   └── arab_region_clusters_final.csv           # The final dataset with Cluster IDs
@@ -45,6 +45,8 @@ The algorithm successfully identified three distinct socio-economic profiles wit
 ├── .gitignore                                   # Standard Python gitignore
 ├── requirements.txt                             # Python dependencies (wbgapi, pandas, etc.)
 └── README.md                                    # Project documentation
+
+
 ##  How to Run
 
 1. **Clone the repository:** ```bash
